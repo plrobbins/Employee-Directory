@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  border: rgb(12, 168, 215);
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  background-color: rgba(18, 19, 19, 0.438);
+  font-weight: inherit;
+}
+
+th {
+  background-color: rgb(12, 110, 238);
 }
